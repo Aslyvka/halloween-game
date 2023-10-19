@@ -177,7 +177,6 @@ namespace GameInterface
 				Foreground = new SolidColorBrush(Colors.White),
 				CornerRadius = new CornerRadius(15)
 			};
-
 			await customDialog.ShowAsync();
 		}
 	}
