@@ -1,0 +1,2 @@
+D:\MyProjects\Halloween Game\UWPGame\GameInterface\GameInterface.csproj;x86
+D:\MyProjects\Halloween Game\UWPGame\GameLibrary\GameLibrary.csproj;x86

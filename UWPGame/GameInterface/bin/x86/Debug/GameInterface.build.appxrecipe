@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPTOP-TMDOVEF6</Machine>
+    <WindowsUser>nasti</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>9762facd-5d38-4b8e-b1f9-c18608f911c1</PackageIdentityName>
+    <PackageIdentityPublisher>CN=melis</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\MyProjects\Halloween Game\UWPGame\GameInterface\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\MyProjects\Halloween Game\UWPGame\GameInterface\bin\x86\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\bin\x86\Debug\GameInterface.exe">
+      <PackagePath>entrypoint\GameInterface.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nasti\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameLibrary\bin\x86\Debug\GameLibrary.dll">
+      <PackagePath>GameLibrary.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\dog.png">
+      <PackagePath>Assets\dog.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\dog2.png">
+      <PackagePath>Assets\dog2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\enemy1.png">
+      <PackagePath>Assets\enemy1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\enemy2.png">
+      <PackagePath>Assets\enemy2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\enemy3.png">
+      <PackagePath>Assets\enemy3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\enemy4.png">
+      <PackagePath>Assets\enemy4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\item1.png">
+      <PackagePath>Assets\item1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\item2.png">
+      <PackagePath>Assets\item2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\item3.png">
+      <PackagePath>Assets\item3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\item4.png">
+      <PackagePath>Assets\item4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\popup1.png">
+      <PackagePath>Assets\popup1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\popup2.png">
+      <PackagePath>Assets\popup2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\popup3.png">
+      <PackagePath>Assets\popup3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\popup4.png">
+      <PackagePath>Assets\popup4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\Pot.png">
+      <PackagePath>Assets\Pot.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\pumpkin1.png">
+      <PackagePath>Assets\pumpkin1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\pumpkin2.png">
+      <PackagePath>Assets\pumpkin2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\pumpkin3.png">
+      <PackagePath>Assets\pumpkin3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\pumpkin4.png">
+      <PackagePath>Assets\pumpkin4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\pumpkin5.png">
+      <PackagePath>Assets\pumpkin5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\pumpkin6.png">
+      <PackagePath>Assets\pumpkin6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\StartGame1.png">
+      <PackagePath>Assets\StartGame1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\threat1.png">
+      <PackagePath>Assets\threat1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\threat2.png">
+      <PackagePath>Assets\threat2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\Witch.png">
+      <PackagePath>Assets\Witch.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\EvilLaugh.mp3">
+      <PackagePath>Assets\EvilLaugh.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\Finish.mp3">
+      <PackagePath>Assets\Finish.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\Game.mp3">
+      <PackagePath>Assets\Game.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\Level3.mp3">
+      <PackagePath>Assets\Level3.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\MainTheme.mp3">
+      <PackagePath>Assets\MainTheme.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\monsters.mp3">
+      <PackagePath>Assets\monsters.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\Spook2.mp3">
+      <PackagePath>Assets\Spook2.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\Witch.mp3">
+      <PackagePath>Assets\Witch.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\Finish.jpg">
+      <PackagePath>Assets\Finish.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\GameOver1.jpg">
+      <PackagePath>Assets\GameOver1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\GameOver2.jpg">
+      <PackagePath>Assets\GameOver2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\GameOver3.jpg">
+      <PackagePath>Assets\GameOver3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\Level1.jpg">
+      <PackagePath>Assets\Level1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\Level2.jpg">
+      <PackagePath>Assets\Level2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\Level3.jpg">
+      <PackagePath>Assets\Level3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\StartGame2.jpg">
+      <PackagePath>Assets\StartGame2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Assets\StartGame3.jpg">
+      <PackagePath>Assets\StartGame3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\bin\x86\Debug\GameInterface.xr.xml">
+      <PackagePath>GameInterface.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\bin\x86\Debug\Finish.xbf">
+      <PackagePath>Finish.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\bin\x86\Debug\GameOver3.xbf">
+      <PackagePath>GameOver3.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\bin\x86\Debug\GameOver2.xbf">
+      <PackagePath>GameOver2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\bin\x86\Debug\Level3.xbf">
+      <PackagePath>Level3.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\bin\x86\Debug\Level2.xbf">
+      <PackagePath>Level2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\bin\x86\Debug\StartGame3.xbf">
+      <PackagePath>StartGame3.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\bin\x86\Debug\StartGame2.xbf">
+      <PackagePath>StartGame2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\bin\x86\Debug\Level1.xbf">
+      <PackagePath>Level1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\bin\x86\Debug\GameOver.xbf">
+      <PackagePath>GameOver.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\bin\x86\Debug\StartGame1.xbf">
+      <PackagePath>StartGame1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\MyProjects\Halloween Game\UWPGame\GameInterface\bin\x86\Debug\Core\GameInterface.exe">
+      <PackagePath>GameInterface.exe</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\nasti\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\nasti\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\nasti\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\nasti\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\nasti\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\nasti\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\nasti\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\nasti\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\nasti\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\nasti\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\nasti\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\nasti\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
